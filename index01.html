@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+
+<title>Judul halaman</title>
+<style>
+body{
+  user-select:none;
+  background-color:#ffffff;}					
+
+hr{
+  background:#eaeaea;
+  width:95%;
+  margin-top:5px;
+  border:0.5px solid #00abff;}
+
+.slide{ 
+    display:block; 
+    width:97%; 
+    margin-bottom:10px; 
+    border-radius:8px; 
+    margin:auto; }
+        
+/*Style Icon*/
+.button {
+  font-size: 10px;
+  opasity: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  width: 19%;
+  margin: 7px;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,);    
+  font-weight: bold;
+}
+
+.image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.dropdown {
+  font-size: 10px;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  width: 25%;
+  font-weight: bold;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 23%;
+  margin-left: -11px;
+  margin-right: 6.5px;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 27.5%;
+
+}
+
+
+.button:hover {background-color: #ffff;color: #ffffff}
+.image:hover {shadow: #fff}
+
+.button:active {
+  background-color: #000000;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.mybutton{  
+  margin-top: 10px;
+  margin: 4px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: auto;
+  margin-bottom: 15px; 
+}  
+
+.tittle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  font-family: arial;
+  border-radius: 20px;
+  padding: 5px;
+  background: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right:8px;
+}
+
+.subtittle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  font-family: arial;
+  border-radius: 20px;
+  padding: 5px;
+  background: #000000
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 8px;
+  margin-right:8px;
+}
+
+.tooltip a {
+  cursor: none;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 17%;
+  max-width: 90%;
+  text-align: center;
+  border-radius: 0px;
+  position: absolute;
+  display: block;
+  z-index: 1;
+  left: 5%;
+  margin-top: 10px;
+  margin-left: 0px;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  
+}
+
+/*Style Teks Berjalan*/
+marquee {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 1000;
+  padding: 4px;
+}
+
+
+.label {
+    background-color: #ffffff;
+border-radius:100px;
+	cursor:pointer;
+	color: #ffffff;
+    font-size: 13px;
+    font-family: arial;
+	text-decoration:none;
+    font-weight: bold;
+    padding: 4px;
+    width: 50px;
+    margin-top: -20px;
+}
+
+.label:hover {background-color: #000000;color: #ffffff}
+
+.imgtool {
+margin-left: 10px;
+padding-left: 0px;
+padding-right:0px;
+}
+
+.img1 {
+  flex: auto;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  padding-top: 5px;
+  width: 10%;
+}
+
+.img2 {
+  flex: auto;
+  width: 30%;
+}
+
+.flashsale {
+  text-align: center;
+  border: #ffffff solid 3px;
+  font-size: 12px;
+  margin-top: 10px;
+  background: #fff;
+  color: #000000;
+  border-radius: 20px;
+  width: 50%;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-radius: 20px;
+  margin-left: 0px; 
+}
+
+.sidenav a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff4a2b;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ff4a2b;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #000000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}}
+
+<style></style>
+  
+    </span>
+    </center>
+</div></div></div></div>
+<!----Sip--->               
+    
+<!---KOTAK 1--->
+<!---BARIS 1--->
+<center>
+<center><p class="subtittle">Voucher Game</center>
+
+
+
+<center>
+<button class="button"><a href="https://madikastore.bukaolshop.site/kategori/unipin-214464"><img class="image" src="https://i.ibb.co/drtFH9d/unip.png"></a>UniPin</button>
+
+<button class="button"><a href="https://madikastore.bukaolshop.site/kategori/steam-214465"><img class="image" src="https://i.ibb.co/hYYFJ6Z/steam.png"></a>Steam</button>
+
+<button class="button"><a href="https://madikastore.bukaolshop.site/digital/74071"><img class="image" src="https://i.ibb.co/Wk7cZzP/gpc.png"></a>Google Play</button>
+
+<button class="button"><a href="https://madikastore.bukaolshop.site/kategori/garena-shell-214467"><img class="image" src="https://i.ibb.co/MNx088y/grn.png"></a>Garena Shell</button></div></div>
+
+</body>
+</html>
+
+</head>
+</html>
